@@ -15,7 +15,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 LIC
   }
-  s.source = { :git => 'https://github.com/RNCryptor/RNCryptor-objc.git', :tag => "RNCryptor-#{s.version.to_s}" }
+  s.source = { :git => 'https://github.com/iheartradio/RNCryptor-objc.git', :tag => "RNCryptor-#{s.version.to_s}" }
   s.description = 'Provides an easy-to-use, Objective-C interface to the AES functionality of CommonCrypto. Simplifies correct handling of password stretching (PBKDF2), salting, and IV.'
   s.homepage = 'https://github.com/rnapier/RNCryptor'
   s.source_files = 'RNCryptor/*.{h,m}'
@@ -25,5 +25,6 @@ LIC
   s.frameworks = 'Security'
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
+  s.tvos.deployment_target = '9.0'
 end
 
